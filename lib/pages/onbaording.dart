@@ -11,6 +11,14 @@ class Onboarding extends StatefulWidget{
 class _OnboardingState extends State<Onboarding>{
    @override
    Widget build(BuildContext context){
-    return Scaffold();
+    return Scaffold(
+      body: Container(
+        child: Column(
+          children: [
+            Image.asset("images/onboard.png"),
+          ],
+        ),
+      ),
+    );
    }
 }
