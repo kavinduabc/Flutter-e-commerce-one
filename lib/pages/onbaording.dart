@@ -1,4 +1,5 @@
 
+import "package:e_commerce_app1/service/widget_support.dart";
 import "package:flutter/material.dart";
 
 class Onboarding extends StatefulWidget{
@@ -18,7 +19,12 @@ class _OnboardingState extends State<Onboarding>{
         child: Column(
           children: [
             Image.asset("images/onboard.png"),
-            Text("The Fastest \n Food Delivery"),
+             
+             SizedBox(height: 20.0,),
+             
+            Text("The Fastest \n Food Delivery",
+             textAlign :TextAlign.center,
+            style:AppWidget.HeadlineTextFeildStyel() ,),
           ],
           
         ),
