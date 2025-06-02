@@ -24,7 +24,27 @@ class _OnboardingState extends State<Onboarding>{
              
             Text("The Fastest \n Food Delivery",
              textAlign :TextAlign.center,
-            style:AppWidget.HeadlineTextFeildStyel() ,),
+            style:AppWidget.HeadlineTextFeildStyel() ,
+            ),
+            SizedBox(height: 30.0,),
+            Text("Craving something dlecious? \n Order now and get your\n favorite food ",
+            textAlign: TextAlign.center,
+            style: AppWidget.SimpleTextFeildStyel(),),
+            Container(
+              height: 60.0,
+              width: MediaQuery.of(context).size.width /2,
+              decoration: BoxDecoration(
+                color:Color(0xff8c592a),borderRadius: BorderRadius.circular(20.0)
+              ),
+              child: Center(
+                child: Text("Get Started",style: TextStyle(
+                  color:Colors.white,
+                  fontSize:20.0,
+                  fontWeight:FontWeight.bold
+                ),),
+              ),
+
+            )
           ],
           
         ),
