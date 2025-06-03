@@ -30,6 +30,7 @@ class _OnboardingState extends State<Onboarding>{
             Text("Craving something dlecious? \n Order now and get your\n favorite food ",
             textAlign: TextAlign.center,
             style: AppWidget.SimpleTextFeildStyel(),),
+            SizedBox(height: 30.0,),
             Container(
               height: 60.0,
               width: MediaQuery.of(context).size.width /2,

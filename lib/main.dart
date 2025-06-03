@@ -1,3 +1,4 @@
+import 'package:e_commerce_app1/pages/home.dart';
 import 'package:e_commerce_app1/pages/onbaording.dart';
 import 'package:flutter/material.dart';
 
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
         
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home:Onboarding(),
+      home:Home(),
     );
   }
 }
